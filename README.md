@@ -22,5 +22,10 @@ Organized in following structure
     # ubuntu
     sudo apt install python-pip
     sudo pip install exifread
+    
+    # in folder you want to execute the script please create a folder called 'pics_to_sort' where you put all your Pic's inside with folder or without
+    mkdir pics_to_sort
 
-#### Script has been tested under ubuntu18.04 & ubuntu16.04 ;) 
+#### Script has been tested under ubuntu18.04 & ubuntu16.04 but it is still in development can have bugs ;) 
+
+
