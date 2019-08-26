@@ -19,7 +19,8 @@ Organized in following structure
     
 
 #### Requirements:
+    # ubuntu
     sudo apt install python-pip
     sudo pip install exifread
 
-#### Script has been tested under Linux ;) 
+#### Script has been tested under ubuntu18.04 & ubuntu16.04 ;) 
