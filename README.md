@@ -9,6 +9,14 @@ Organized in following structure
     --> Day
     ---> DeviceModel
     ----> File
+    
+    #Example
+    2019
+    -> 08
+    --> 22
+    ---> SM-G955F
+    ----> 20190822_184158.jpg
+    
 
 #### Requirements:
     sudo apt install python-pip
