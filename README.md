@@ -14,3 +14,4 @@ Organized in following structure
     sudo apt install python-pip
     sudo pip install exifread
 
+#### Script has been tested under Linux ;) 
