@@ -10,7 +10,7 @@ Year
 ---->File
 
 ScriptAuthor : MICHEL Fabien
-ScriptVersion : 0.1
+ScriptVersion : 0.
 ScriptDate : 25 August 2019
 @fabienonwork
 
@@ -83,8 +83,8 @@ for r, d, f in os.walk(path_to_scan):
         img = open(f)
         exif_data = exifread.process_file(img)
         try:
-            model = exif_data['Image Model']
-            date = exif_data['EXIF DateTimeOriginal']
+            model = exif_data['Image Model'] # Image Model': SM-G955F
+            date = str(exif_data['EXIF DateTimeOriginal']).replace("/", ":") # 'EXIF DateTimeOriginal': 2017:10:29 15:53:34 || 2011/09/15 06:53:58
             extrTime(f,model,date)
         except:
             createFolder(path_to_notable)
